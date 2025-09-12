@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marché Équestre 2025</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #1f2937; /* Dark gray text */
+        }
+        .header-bg {
+            background-color: #111827; /* Darker header */
+        }
+        .text-black-theme {
+            color: #111827;
+        }
+        .bg-black-theme {
+            background-color: #111827;
+        }
+        .bg-white-theme {
+            background-color: #f9fafb;
+        }
+        .logo-box-bg {
+            background-color: #1f2937;
+        }
+        .active-link::after {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: #f7d242; /* Yellow underline for accent */
+            margin-top: 4px;
+        }
+    </style>
+</head>
+<body class="bg-white-theme">
+
+    <!-- Navbar -->
+    <header class="header-bg text-gray-300 p-4 fixed w-full z-10 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <nav>
+                <ul class="flex space-x-6 text-sm font-semibold">
+                    <li><a href="#accueil" class="hover:text-white transition duration-300 active-link">ACCUEIL</a></li>
+                    <li><a href="#propos" class="hover:text-white transition duration-300">À PROPOS 2025</a></li>
+                    <li><a href="#exposants" class="hover:text-white transition duration-300">EXPOSANTS 2025</a></li>
+                    <li><a href="#contact" class="hover:text-white transition duration-300">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="flex items-center space-x-4">
+                <a href="#" class="text-xl hover:text-white transition duration-300"><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-16">
+        <!-- Accueil Section -->
+        <section id="accueil" class="bg-white-theme py-16">
+            <div class="container mx-auto px-4 lg:flex items-center justify-between">
+                <div class="lg:w-1/2 flex justify-center lg:justify-start mb-8 lg:mb-0">
+                    <img src="https://placehold.co/500x500/f9fafb/111827?text=Horse+Image" alt="Horse head" class="rounded-lg shadow-lg max-w-full h-auto">
+                </div>
+                <div class="lg:w-1/2 lg:pl-16 text-center lg:text-left">
+                    <h1 class="text-4xl lg:text-5xl font-bold text-black-theme mb-4">MARCHÉ ÉQUESTRE</h1>
+                    <p class="text-lg text-gray-800 mb-2">VENEZ NOUS VOIR !</p>
+                    <p class="mb-2">Samedi 15 novembre 2025 - 10:00 à 16:00</p>
+                    <p class="mb-4">Dimanche 16 novembre 2025 - 10:00 à 15:00</p>
+                    <p class="text-xl font-semibold mb-4">Entrée gratuite</p>
+                    <p class="mb-4">Exposants / Conférences / Cantine / ...</p>
+                    <p class="mb-8">Adresse: 150 chemin du Sous-Bois, Mont-Saint-Grégoire, Québec, Canada, J0J 1K0</p>
+                    <a href="#exposants" class="inline-block bg-black-theme text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition duration-300">EXPOSANTS</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- A Propos Section -->
+        <section id="propos" class="bg-gray-100 py-16 text-gray-800">
+            <div class="container mx-auto px-4 lg:flex justify-between items-center">
+                <div class="lg:w-1/2 text-left mb-8 lg:mb-0">
+                    <h2 class="text-4xl lg:text-5xl font-bold mb-4 text-black-theme">UNE MULTITUDE D'ACTIVITÉS</h2>
+                </div>
+                <div class="lg:w-1/2 text-left lg:pl-16">
+                    <p class="mb-4">Exposants, conférences, cantine, ...</p>
+                    <p>Voir plus bas pour la foire aux questions.</p>
+                </div>
+            </div>
+            <div class="container mx-auto px-4 mt-16">
+                <div class="flex flex-col lg:flex-row justify-between">
+                    <!-- Conférences -->
+                    <div class="lg:w-1/3 mb-8 lg:mb-0">
+                        <h3 class="text-2xl font-semibold mb-2 text-black-theme">CONFÉRENCES</h3>
+                        <p class="italic text-gray-600">Horaires à venir</p>
+                        <p class="mt-4 text-gray-600">Samedi 16 novembre 2025</p>
+                    </div>
+                    <!-- Cantine -->
+                    <div class="lg:w-1/3 mb-8 lg:mb-0">
+                        <h3 class="text-2xl font-semibold mb-2 text-black-theme">LA CANTINE DE L'ÉRABLIÈRE</h3>
+                        <p class="italic text-gray-600">Menu à venir</p>
+                    </div>
+                    <!-- FAQ -->
+                    <div class="lg:w-1/3">
+                        <h3 class="text-2xl font-semibold mb-2 text-black-theme">VOUS AVEZ DES QUESTIONNEMENTS ?</h3>
+                        <p class="text-lg mb-4">Voici quelques réponses à vos questions les plus fréquentes.</p>
+                        <ul class="list-disc list-inside space-y-2 text-gray-600">
+                            <li>L’entrée est gratuite.</li>
+                            <li>Les chiens ne sont pas autorisés dans l’érablière où se trouvent les exposants et les conférences. Cependant, ils sont acceptés en laisse sur le terrain de l’érablière si vous souhaitez vous promener dans les sous-bois.</li>
+                            <li>Les allées entre les kiosques seront assez larges pour accommoder les poussettes.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Exposants Section -->
+        <section id="exposants" class="bg-white-theme py-16 text-gray-800">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-4xl lg:text-5xl font-bold text-black-theme mb-2">Notre équipe d'exposants</h2>
+                <p class="text-xl mb-4">Venez rencontrer nos exposants passionnés du monde des chevaux.</p>
+                <p class="text-lg italic">*Quelques kiosques disponibles! Contactez-nous pour plus d’informations!*</p>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
+                    <!-- Exposant 1 -->
+                    <div class="logo-box-bg rounded-lg overflow-hidden shadow-lg p-6 flex flex-col items-center text-center text-white">
+                        <img src="https://placehold.co/150x150/1f2937/f9fafb?text=L*EQ" alt="L*EQ logo" class="mb-4">
+                        <h4 class="text-xl font-semibold mb-2">Lux Équestre</h4>
+                        <p class="text-sm">Équipements pour chevaux et cavaliers</p>
+                        <div class="mt-4 flex space-x-4">
+                            <a href="#" class="text-gray-300 hover:text-white"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="text-gray-300 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="text-gray-300 hover:text-white"><i class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                    
+                    <!-- Exposant 2 -->
+                    <div class="logo-box-bg rounded-lg overflow-hidden shadow-lg p-6 flex flex-col items-center text-center text-white">
+                        <img src="https://placehold.co/150x150/1f2937/f9fafb?text=Pat+Cuir" alt="Pat Cuir logo" class="mb-4">
+                        <h4 class="text-xl font-semibold mb-2">Patcuir</h4>
+                        <p class="text-sm">Articles en cuir fait à la main</p>
+                        <div class="mt-4 flex space-x-4">
+                            <a href="#" class="text-gray-300 hover:text-white"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="text-gray-300 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="text-gray-300 hover:text-white"><i class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Exposant 3 -->
+                    <div class="logo-box-bg rounded-lg overflow-hidden shadow-lg p-6 flex flex-col items-center text-center text-white">
+                        <img src="https://placehold.co/150x150/1f2937/f9fafb?text=Galahad" alt="Galahad logo" class="mb-4">
+                        <h4 class="text-xl font-semibold mb-2">Galahad</h4>
+                        <p class="text-sm">Tapis selle Ogilvy, vêtements et accessoires Galahad</p>
+                        <div class="mt-4 flex space-x-4">
+                            <a href="#" class="text-gray-300 hover:text-white"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="text-gray-300 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="text-gray-300 hover:text-white"><i class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Exposant 4 -->
+                    <div class="logo-box-bg rounded-lg overflow-hidden shadow-lg p-6 flex flex-col items-center text-center text-white">
+                        <img src="https://placehold.co/150x150/1f2937/f9fafb?text=Cheval+Karuna" alt="Cheval Karuna logo" class="mb-4">
+                        <h4 class="text-xl font-semibold mb-2">Cheval Karuna</h4>
+                        <p class="text-sm">...</p>
+                        <div class="mt-4 flex space-x-4">
+                            <a href="#" class="text-gray-300 hover:text-white"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="text-gray-300 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="text-gray-300 hover:text-white"><i class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="bg-gray-100 py-16 text-gray-800">
+            <div class="container mx-auto px-4 flex flex-col lg:flex-row justify-between items-start">
+                <div class="lg:w-1/3 mb-8 lg:mb-0">
+                    <h3 class="text-2xl font-semibold mb-2 text-black-theme">Adresse</h3>
+                    <p>150 chemin du sous-bois, Mont-Saint-Grégoire, Québec, Canada, J0J 1K0</p>
+                </div>
+                <div class="lg:w-1/3 mb-8 lg:mb-0">
+                    <h3 class="text-2xl font-semibold mb-2 text-black-theme">Contact</h3>
+                    <p class="mb-2">marianne.graveline@gmail.com</p>
+                    <div class="mt-2 flex space-x-4">
+                        <a href="#" class="text-gray-600 hover:text-black-theme"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 mb-8 lg:mb-0">
+                    <h3 class="text-2xl font-semibold mb-2 text-black-theme">Heures d'ouverture</h3>
+                    <p class="mb-2">Samedi 16 novembre 2025</p>
+                    <p class="mb-2">10:00 à 16:00</p>
+                    <p class="mb-2">Dimanche 17 novembre 2025</p>
+                    <p>10:00 à 15:00</p>
+                </div>
+            </div>
+            <div class="container mx-auto px-4 mt-12">
+                <p class="text-sm text-gray-600 italic text-center lg:text-left">
+                    L’équipe du marché équestre est fier de présenter cette nouvelle édition! Il s’agit d’un projet permettant aux entreprises locales et régionaux de mettre en valeur leurs produits et leurs services à vocation é
