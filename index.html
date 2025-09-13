@@ -182,7 +182,7 @@
 
 <script>
     document.addEventListener('DOMContentLoaded', () => {
-        fetch('/static/exposants.json')
+        fetch('./static/exposants.json')
             .then(response => response.json())
             .then(data => {
                 const container = document.getElementById('exposants-list');
