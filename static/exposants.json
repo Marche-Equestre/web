@@ -1,12 +1,199 @@
 [
   {
-    "name": "Lux Équestre",
-    "logo": "/static/logos/lux_equestre.png",
-    "description": "Équipements pour chevaux et cavaliers",
+    "name": "ÉquiCom",
+    "logo": "",
+    "description": "",
+    "socials": []
+  },
+  {
+    "name": "Stephanie Ouellette",
+    "logo": "",
+    "description": "",
+    "socials": []
+  },
+  {
+    "name": "Leveza",
+    "logo": "",
+    "description": "",
+    "socials": []
+  },
+  {
+    "name": "Le florin",
+    "logo": "",
+    "description": "",
+    "socials": []
+  },
+  {
+    "name": "Fer sa chance",
+    "logo": "",
+    "description": "",
+    "socials": []
+  },
+  {
+    "name": "Chercheur de selle",
+    "logo": "",
+    "description": "",
+    "socials": []
+  },
+  {
+    "name": "Galahad",
+    "logo": "",
+    "description": "",
+    "socials": []
+  },
+  {
+    "name": "Epicure",
+    "logo": "",
+    "description": "Épices et assaisonnements pour aider les cavaliers dans leur vie bien remplie et leur sauver du temps. Solution repas, desserts, épices, assaisonnements, thé et outils de cuisine.",
     "socials": [
-      { "url": "#", "icon": "fab fa-instagram" },
-      { "url": "#", "icon": "fab fa-facebook-f" },
-      { "url": "#", "icon": "fas fa-globe" }
+      { "url": "https://www.facebook.com/mariehelene.beauvolsk", "icon": "fab fa-facebook-f" }
+    ]
+  },
+  {
+    "name": "Créations Stéphanie Guiot",
+    "logo": "",
+    "description": "Plaque de box personnalisée, t shirt, Porte-rosette, charms, Protege étrier, toutou personnalisé, Porte clé,  Probablement couvre selle et sac a bride.  Je travaille avec le tissus,  le vinyl, gravure et coupure laser.",
+    "socials": [
+      { "url": "https://www.facebook.com/profile.php?id=61564027600979", "icon": "fab fa-facebook-f" }
+    ]
+  },
+  {
+    "name": "Leila S. Gladu Photographe",
+    "logo": "",
+    "description": "Photographe Animalière",
+    "socials": [
+      { "url": "Leila S. Gladu Photographe", "icon": "fab fa-facebook-f" },
+      { "url": "lsgphotos.com", "icon": "fas fa-globe" }
+    ]
+  },
+  {
+    "name": "Cheval Karuna",
+    "logo": "",
+    "description": "Développement socio-émotionnel facilité par le cheval (équitherapie)",
+    "socials": [
+      { "url": "https://chevalkaruna.com", "icon": "fas fa-globe" }
+    ]
+  },
+  {
+    "name": "Pyr Hat Michèle Lafond ",
+    "logo": "",
+    "description": "Pyrogravures sur Chapeaux de cow-boy et articles en cuir ou en bois pyrogravés à la main",
+    "socials": [
+      { "url": "https://www.facebook.com/share/16a3fkbNVY/?mibextid=wwXIfr", "icon": "fab fa-facebook-f" }
+    ]
+  },
+  {
+    "name": "MiniMoon Creations",
+    "logo": "",
+    "description": "Polos, sac à crins, doudous pour enfants, porte-clé. Tout est fait à la main. ",
+    "socials": [
+      { "url": "https://www.facebook.com/share/17GrjsLUWg/", "icon": "fab fa-facebook-f" }
+    ]
+  },
+  {
+    "name": "Équi-Conscience Soins Holistiques Équins",
+    "logo": "",
+    "description": "Distributrice des produits Équithalasso-Équialgues (gamme de soins aux algues marines) - Produits naturels que je confectionne à base d'huiles essentielles (baume guérison - baume Je respire - Spray guérison - Bye Bye Thrush - Spray musculaire - Yeux Santé)",
+    "socials": [
+      { "url": "https://www.facebook.com/profile.php?id=100065663882593", "icon": "fab fa-facebook-f" }
+    ]
+  },
+  {
+    "name": "RAYO Produits Naturels",
+    "logo": "",
+    "description": "Produits naturels pour chevaux fabriqué de façons artisanal au Québec",
+    "socials": [
+      { "url": "https://rayoproduitsnautrels.ca", "icon": "fas fa-globe" }
+    ]
+  },
+  {
+    "name": "Marie-Claude Fleury Artiste peintre professionnelle",
+    "logo": "",
+    "description": "Artiste peintre professionnelle, je me spécialise en art équin. Je peins uniquement des chevaux. Je fais entre autre beaucoup de commandes spéciales pour les personnes qui souhaitent avoir un portrait de leur propre cheval. ",
+    "socials": [
+      { "url": "https://www.facebook.com/share/1Ei6rqedn7/?mibextid=wwXIfr", "icon": "fas fa-globe" }
+    ]
+  },
+  {
+    "name": "Coraféli",
+    "logo": "",
+    "description": "Bouteille stainless, bouteilles en verre sublimation, pochette collation, couverture, porte clé et tuque à pompon !",
+    "socials": [
+      { "url": "https://facebook.com/profile.php?id=100088416935705&name=xhp_nt__fb__action__open_user&locale=fr_CA", "icon": "fab fa-facebook-f" }
+    ]
+  },
+  {
+    "name": "Lux Equestre ",
+    "logo": "",
+    "description": "Tapis, brides, vetements pour cavaliers",
+    "socials": [
+      { "url": "https://www.luxequestre.com", "icon": "fas fa-globe" }
+    ]
+  },
+  {
+    "name": "Ferme Dion",
+    "logo": "",
+    "description": "Moulée et supplement pour chevaux, abreuvoir , dalles ( Mud Control Grids)",
+    "socials": [
+      { "url": "https://fermedion.com", "icon": "fas fa-globe" }
+    ]
+  },
+  {
+    "name": "PharmaVet",
+    "logo": "",
+    "description": "Service de formation et de consultation sur les suppléments et les médicaments équins",
+    "socials": [
+      { "url": "https://www.pharmavet.ca", "icon": "fas fa-globe" }
+    ]
+  },
+  {
+    "name": "Biopteq",
+    "logo": "",
+    "description": "Produits pour sabots, suppléments alimentaires, shampooing, savon , huile à mouches",
+    "socials": [
+      { "url": "https://www.facebook.com/share/1Jreg6CM84/?mibextid=wwXIfr", "icon": "fab fa-facebook-f" },
+      { "url": "https://www.biopteq.com", "icon": "fas fa-globe" }
+    ]
+  },
+  {
+    "name": "Centre de Réhabilitation et Thérapie Sportive ",
+    "logo": "",
+    "description": "Centre de réhabilitation pour chevaux et au même kiosque aussi les services de massothérapie de EquiVet",
+    "socials": [
+      { "url": "https://equivetrehab.ca", "icon": "fas fa-globe" }
+    ]
+  },
+  {
+    "name": "Geroverse",
+    "logo": "",
+    "description": "Produits Galloping Goop, Equiderma, Barn Dog,  Creation Chantal, T-shirt Geroverse",
+    "socials": [
+      { "url": "https://www.facebook.com/geroverse", "icon": "fab fa-facebook-f" },
+      { "url": "https://geroverse.ca", "icon": "fas fa-globe" }
+    ]
+  },
+  {
+    "name": "Brenda Dubois",
+    "logo": "",
+    "description": "Thérapie de laser super-pulsée MultiRadiance et thermographie (images thermales) equine, canine, feline et bovine",
+    "socials": [
+      { "url": "https://activetechlaser.com/", "icon": "fas fa-globe" }
+    ]
+  },
+  {
+    "name": "Pegasi Pearlz",
+    "logo": "",
+    "description": "Frontal, bonnet, licou, polos, guêtres tout personalisable",
+    "socials": [
+      { "url": "https://etsy.com/ca/shop/PegasiPearlz", "icon": "fas fa-globe" }
+    ]
+  },
+  {
+    "name": "Création Chantal création pour toi",
+    "logo": "",
+    "description": "Bijoux en crins de cheval( collier, bracelets, porte-clés, boucles d’oreilles, marque page, capteur de lumière, capteur de rêve, signets personnalisés, horloges, boule de Noël peint à la main, charms pour bride, charms de protection, attache à sac, attache à cellulaire…) et pour le plaisir des plus petits des bracelets en corde ajustable, petit chevaux porte-clés articulé, petite botte de cowboy et bien plus encore. Section spéciale à petit prix pour rejoindre tous les budgets.",
+    "socials": [
+      { "url": "https://www.facebook.com/share/1NG7tZye8U/?mibextid=wwXIfr", "icon": "fab fa-facebook-f" }
     ]
   }
 ]
