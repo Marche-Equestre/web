@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Lux Équestre",
+    "logo": "/static/logos/lux_equestre.png",
+    "description": "Équipements pour chevaux et cavaliers",
+    "socials": [
+      { "url": "#", "icon": "fab fa-instagram" },
+      { "url": "#", "icon": "fab fa-facebook-f" },
+      { "url": "#", "icon": "fas fa-globe" }
+    ]
+  }
+]
