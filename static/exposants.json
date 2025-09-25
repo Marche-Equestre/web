@@ -68,7 +68,7 @@
   },
   {
     "name": "Cheval Karuna",
-    "logo": "",
+    "logo": "/static/logos/ChevalKaruna.jpg",
     "description": "Développement socio-émotionnel facilité par le cheval (équitherapie)",
     "socials": [
       { "url": "https://chevalkaruna.com", "icon": "fas fa-globe" }
