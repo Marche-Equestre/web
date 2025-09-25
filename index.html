@@ -1,194 +1,280 @@
 <!DOCTYPE html>
 <html lang="fr" class="scroll-smooth">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marché Équestre 2025</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            color: #5C4033; /* Rich Brown */
-        }
-        .header-bg {
-            background-color: #F5F5DC; /* Warm Beige */
-            border-bottom: 1px solid #C4B086;
-        }
-        .text-primary-theme {
-            color: #1A4314; /* Forest Green */
-        }
-        .text-light-beige {
-            color: #F5F5DC;
-        }
-        .bg-primary-theme {
-            background-color: #1A4314;
-        }
-        .bg-secondary-theme {
-            background-color: #5C4033;
-        }
-        .btn-primary {
-            background-color: #1A4314; /* Forest Green */
-            transition: background-color 0.3s ease-in-out;
-        }
-        .btn-primary:hover {
-            background-color: #0E290C;
-        }
-        .section-header {
-            position: relative;
-            padding-bottom: 0.5rem;
-            margin-bottom: 2rem;
-        }
-        .section-header::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 50px;
-            height: 3px;
-            background-color: #B8860B; /* Antique Gold */
-        }
-    </style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Marché Équestre 2025</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+		rel="stylesheet">
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<style>
+		body {
+			font-family: 'Poppins', sans-serif;
+			color: #374151;
+			/* Dark Gray */
+		}
+
+		.header-bg {
+			background-color: #FFFFFF;
+			/* White */
+			border-bottom: 1px solid #E5E7EB;
+			/* Light Gray */
+		}
+
+		.text-primary-theme {
+			color: #004AAD;
+			/* Dark Blue */
+		}
+
+		.text-light-beige {
+			color: #FFFFFF;
+			/* White */
+		}
+
+		.bg-primary-theme {
+			background-color: #004AAD;
+			/* Dark Blue */
+		}
+
+		.bg-secondary-theme {
+			background-color: #374151;
+			/* Dark Gray */
+		}
+
+		.btn-primary {
+			background-color: #004AAD;
+			/* Dark Blue */
+			transition: background-color 0.3s ease-in-out;
+		}
+
+		.btn-primary:hover {
+			background-color: #003380;
+			/* Darker Blue */
+		}
+
+		.section-header {
+			position: relative;
+			padding-bottom: 0.5rem;
+			margin-bottom: 2rem;
+		}
+
+		.section-header::after {
+			content: '';
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 50px;
+			height: 3px;
+			background-color: #FFC107;
+			/* Amber/Gold */
+		}
+	</style>
 </head>
-<body class="bg-warm-beige">
 
-<header class="header-bg text-rich-brown p-4 fixed w-full z-10 shadow-md">
-    <div class="container mx-auto flex justify-between items-center">
-        <h1 class="text-2xl font-bold text-primary-theme">MARCHÉ ÉQUESTRE</h1>
-        <nav class="hidden md:flex">
-            <ul class="flex space-x-8 text-sm font-semibold">
-                <li><a href="#accueil" class="hover:text-primary-theme transition duration-300">ACCUEIL</a></li>
-                <li><a href="#propos" class="hover:text-primary-theme transition duration-300">À PROPOS</a></li>
-                <li><a href="#exposants" class="hover:text-primary-theme transition duration-300">EXPOSANTS</a></li>
-                <li><a href="#contact" class="hover:text-primary-theme transition duration-300">CONTACT</a></li>
-            </ul>
-        </nav>
-        <div class="md:hidden">
-            <button id="menu-button" class="text-rich-brown hover:text-primary-theme focus:outline-none">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
-            </button>
-        </div>
-    </div>
-</header>
+<body class="bg-gray-50">
 
-<div id="mobile-menu" class="fixed top-0 left-0 w-full h-full bg-warm-beige z-20 transform -translate-x-full transition-transform duration-300 ease-in-out p-6 pt-20 shadow-lg">
-    <button id="close-menu" class="absolute top-4 right-4 text-rich-brown hover:text-primary-theme">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
-    </button>
-    <nav class="flex flex-col space-y-4">
-        <a href="#accueil" class="text-xl font-semibold text-primary-theme hover:text-rich-brown" onclick="hideMenu()">ACCUEIL</a>
-        <a href="#propos" class="text-xl font-semibold text-primary-theme hover:text-rich-brown" onclick="hideMenu()">À PROPOS</a>
-        <a href="#exposants" class="text-xl font-semibold text-primary-theme hover:text-rich-brown" onclick="hideMenu()">EXPOSANTS</a>
-        <a href="#contact" class="text-xl font-semibold text-primary-theme hover:text-rich-brown" onclick="hideMenu()">CONTACT</a>
-    </nav>
-</div>
+	<header class="header-bg text-rich-brown p-4 fixed w-full z-10 shadow-md">
+		<div class="container mx-auto flex justify-between items-center">
+			<h1 class="text-2xl font-bold text-primary-theme">MARCHÉ ÉQUESTRE</h1>
+			<nav class="hidden md:flex">
+				<ul class="flex space-x-8 text-sm font-semibold">
+					<li><a href="#accueil"
+							class="hover:text-primary-theme transition duration-300">ACCUEIL</a>
+					</li>
+					<li><a href="#propos" class="hover:text-primary-theme transition duration-300">À
+							PROPOS</a></li>
+					<li><a href="#exposants"
+							class="hover:text-primary-theme transition duration-300">EXPOSANTS</a>
+					</li>
+					<li><a href="#contact"
+							class="hover:text-primary-theme transition duration-300">CONTACT</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="md:hidden">
+				<button id="menu-button"
+					class="text-rich-brown hover:text-primary-theme focus:outline-none">
+					<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+						xmlns="http://www.w3.org/2000/svg">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+							d="M4 6h16M4 12h16m-7 6h7"></path>
+					</svg>
+				</button>
+			</div>
+		</div>
+	</header>
 
-<main class="pt-20">
-    <section id="accueil" class="bg-light-beige py-20">
-        <div class="container mx-auto px-4 flex flex-col-reverse lg:flex-row items-center justify-between">
-            <div class="lg:w-1/2 text-center lg:text-left mt-8 lg:mt-0">
-                <h2 class="text-5xl lg:text-6xl font-extrabold text-primary-theme leading-tight">MARCHÉ ÉQUESTRE 2025</h2>
-                <p class="text-lg text-rich-brown mt-4 mb-2 font-light">VENEZ NOUS VOIR !</p>
-                <p class="text-2xl font-semibold text-primary-theme mb-4">Entrée gratuite</p>
-                <p class="text-md text-rich-brown mb-2">Samedi 15 novembre 2025 • 10:00 à 16:00</p>
-                <p class="text-md text-rich-brown mb-6">Dimanche 16 novembre 2025 • 10:00 à 15:00</p>
-                <p class="text-sm text-gray-500 mb-8 max-w-lg">150 chemin du Sous-Bois, Mont-Saint-Grégoire, Québec, Canada, J0J 1K0</p>
-                <a href="#exposants" class="inline-block btn-primary text-light-beige px-8 py-4 rounded-full font-semibold shadow-lg hover:shadow-xl transition duration-300">VOIR LES EXPOSANTS</a>
-            </div>
-            <div class="lg:w-1/2 flex justify-center lg:justify-end">
-                <img src="static/images/horse_1.jpeg" alt="Horse head portrait" class="rounded-xl shadow-2xl max-w-full h-auto transform rotate-1 transition duration-300 hover:rotate-0">
-            </div>
-        </div>
-    </section>
+	<div id="mobile-menu"
+		class="fixed top-0 left-0 w-full h-full bg-warm-beige z-20 transform -translate-x-full transition-transform duration-300 ease-in-out p-6 pt-20 shadow-lg">
+		<button id="close-menu" class="absolute top-4 right-4 text-rich-brown hover:text-primary-theme">
+			<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+				xmlns="http://www.w3.org/2000/svg">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+					d="M6 18L18 6M6 6l12 12"></path>
+			</svg>
+		</button>
+		<nav class="flex flex-col space-y-4">
+			<a href="#accueil" class="text-xl font-semibold text-primary-theme hover:text-rich-brown"
+				onclick="hideMenu()">ACCUEIL</a>
+			<a href="#propos" class="text-xl font-semibold text-primary-theme hover:text-rich-brown"
+				onclick="hideMenu()">À PROPOS</a>
+			<a href="#exposants" class="text-xl font-semibold text-primary-theme hover:text-rich-brown"
+				onclick="hideMenu()">EXPOSANTS</a>
+			<a href="#contact" class="text-xl font-semibold text-primary-theme hover:text-rich-brown"
+				onclick="hideMenu()">CONTACT</a>
+		</nav>
+	</div>
 
-    <section id="propos" class="bg-warm-beige py-20 text-rich-brown">
-        <div class="container mx-auto px-4">
-            <div class="mb-12">
-                <h2 class="text-4xl lg:text-5xl font-extrabold text-primary-theme section-header">UNE MULTITUDE D'ACTIVITÉS</h2>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                <div class="bg-white p-6 rounded-xl shadow-md">
-                    <h3 class="text-2xl font-bold mb-2 text-primary-theme">CONFÉRENCES 🎤</h3>
-                    <p class="text-rich-brown mb-2">Découvrez les dernières avancées et conseils d'experts. Le calendrier des conférences sera mis à jour prochainement.</p>
-                    <p class="mt-4 text-sm font-semibold text-gray-500">Horaires à venir</p>
-                </div>
-                <div class="bg-white p-6 rounded-xl shadow-md">
-                    <h3 class="text-2xl font-bold mb-2 text-primary-theme">LA CANTINE DE L'ÉRABLIÈRE 🍽️</h3>
-                    <p class="text-rich-brown mb-2">Une variété de plats locaux pour satisfaire toutes les envies. Le menu complet sera bientôt disponible.</p>
-                    <p class="mt-4 text-sm font-semibold text-gray-500">Menu à venir</p>
-                </div>
-                <div class="bg-white p-6 rounded-xl shadow-md">
-                    <h3 class="text-2xl font-bold mb-2 text-primary-theme">QUESTIONS FRÉQUENTES ❓</h3>
-                    <ul class="list-disc list-inside space-y-2 text-rich-brown">
-                        <li>L’entrée est <span class="font-semibold text-primary-theme">gratuite</span>.</li>
-                        <li>Les <span class="font-semibold text-primary-theme">chiens ne sont pas autorisés</span> à l’intérieur, mais sont les bienvenus en laisse sur le terrain extérieur.</li>
-                        <li>Les <span class="font-semibold text-primary-theme">poussettes</span> peuvent circuler facilement dans les allées des kiosques.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+	<main class="pt-20">
+		<section id="accueil" class="bg-white py-20">
+			<div
+				class="container mx-auto px-4 flex flex-col-reverse lg:flex-row items-center justify-between">
+				<div class="lg:w-1/2 text-center lg:text-left mt-8 lg:mt-0">
+					<h2
+						class="text-5xl lg:text-6xl font-extrabold text-primary-theme leading-tight">
+						MARCHÉ ÉQUESTRE 2025</h2>
+					<p class="text-lg text-rich-brown mt-4 mb-2 font-light">VENEZ NOUS VOIR !</p>
+					<p class="text-2xl font-semibold text-primary-theme mb-4">Entrée gratuite</p>
+					<p class="text-md text-rich-brown mb-2">Samedi 15 novembre 2025 • 10:00 à 16:00
+					</p>
+					<p class="text-md text-rich-brown mb-6">Dimanche 16 novembre 2025 • 10:00 à
+						15:00</p>
+					<p class="text-sm text-gray-500 mb-8 max-w-lg">150 chemin du Sous-Bois,
+						Mont-Saint-Grégoire, Québec, Canada, J0J 1K0</p>
+					<a href="#exposants"
+						class="inline-block btn-primary text-light-beige px-8 py-4 rounded-full font-semibold shadow-lg hover:shadow-xl transition duration-300">VOIR
+						LES EXPOSANTS</a>
+				</div>
+				<div class="lg:w-1/2 flex justify-center lg:justify-end">
+					<img src="static/images/horse_1.jpeg" alt="Horse head portrait"
+						class="rounded-xl shadow-2xl max-w-full h-auto transform rotate-1 transition duration-300 hover:rotate-0">
+				</div>
+			</div>
+		</section>
 
-    <section id="exposants" class="bg-light-beige py-20">
-        <div class="container mx-auto px-4">
-            <div class="mb-12 text-center">
-                <h2 class="text-4xl lg:text-5xl font-extrabold text-primary-theme inline-block section-header before:left-1/2 before:-translate-x-1/2">NOS EXPOSANTS</h2>
-                <p class="mt-4 text-lg text-rich-brown">Découvrez les entreprises et créateurs présents lors de l'événement.</p>
-            </div>
-                <div id="exposants-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            </div>
-        </div>
-    </section>
+		<section id="propos" class="bg-gray-50 py-20 text-gray-700">
+			<div class="container mx-auto px-4">
+				<div class="mb-12">
+					<h2
+						class="text-4xl lg:text-5xl font-extrabold text-primary-theme section-header">
+						UNE MULTITUDE D'ACTIVITÉS</h2>
+				</div>
+				<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+					<div class="bg-white p-6 rounded-xl shadow-md">
+						<h3 class="text-2xl font-bold mb-2 text-primary-theme">CONFÉRENCES 🎤
+						</h3>
+						<p class="text-rich-brown mb-2">Découvrez les dernières avancées et
+							conseils d'experts. Le calendrier des conférences sera mis à
+							jour prochainement.</p>
+						<p class="mt-4 text-sm font-semibold text-gray-500">Horaires à venir</p>
+					</div>
+					<div class="bg-white p-6 rounded-xl shadow-md">
+						<h3 class="text-2xl font-bold mb-2 text-primary-theme">LA CANTINE DE
+							L'ÉRABLIÈRE 🍽️</h3>
+						<p class="text-rich-brown mb-2">Une variété de plats locaux pour
+							satisfaire toutes les envies. Le menu complet sera bientôt
+							disponible.</p>
+						<p class="mt-4 text-sm font-semibold text-gray-500">Menu à venir</p>
+					</div>
+					<div class="bg-white p-6 rounded-xl shadow-md">
+						<h3 class="text-2xl font-bold mb-2 text-primary-theme">QUESTIONS
+							FRÉQUENTES ❓</h3>
+						<ul class="list-disc list-inside space-y-2 text-rich-brown">
+							<li>L’entrée est <span
+									class="font-semibold text-primary-theme">gratuite</span>.
+							</li>
+							<li>Les <span class="font-semibold text-primary-theme">chiens ne
+									sont pas autorisés</span> à l’intérieur, mais
+								sont les bienvenus en laisse sur le terrain extérieur.
+							</li>
+							<li>Les <span
+									class="font-semibold text-primary-theme">poussettes</span>
+								peuvent circuler facilement dans les allées des
+								kiosques.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    <section id="contact" class="bg-warm-beige py-20 text-rich-brown">
-        <div class="container mx-auto px-4">
-            <div class="mb-12 text-center">
-                <h2 class="text-4xl lg:text-5xl font-extrabold text-primary-theme inline-block section-header before:left-1/2 before:-translate-x-1/2">CONTACT & INFORMATIONS</h2>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
-                <div class="flex flex-col items-center">
-                    <div class="text-4xl text-primary-theme mb-4"><i class="fas fa-map-marker-alt"></i></div>
-                    <h3 class="text-2xl font-semibold mb-2 text-primary-theme">Adresse</h3>
-                    <a class="text-rich-brown" href="https://maps.app.goo.gl/C5tNAWCXUhPerZsz9">150 chemin du Sous-Bois, Mont-Saint-Grégoire, Québec, Canada, J0J 1K0</a>
-                </div>
-                <div class="flex flex-col items-center">
-                    <div class="text-4xl text-primary-theme mb-4"><i class="fas fa-envelope"></i></div>
-                    <h3 class="text-2xl font-semibold mb-2 text-primary-theme">Contact</h3>
-                    <a class="text-rich-brown mb-2" href="mailto:marianne.graveline@gmail.com">marianne.graveline@gmail.com</a>
-                    <div class="mt-2 flex space-x-4 text-rich-brown">
-                        <a href="https://www.facebook.com/marianne.graveline" class="hover:text-primary-theme"><i class="fab fa-facebook-f"></i></a>
-                    </div>
-                </div>
-                <div class="flex flex-col items-center">
-                    <div class="text-4xl text-primary-theme mb-4"><i class="fas fa-clock"></i></div>
-                    <h3 class="text-2xl font-semibold mb-2 text-primary-theme">Heures d'ouverture</h3>
-                    <p class="text-rich-brown mb-2">Samedi 16 novembre 2025 • 10:00 à 16:00</p>
-                    <p class="text-rich-brown">Dimanche 17 novembre 2025 • 10:00 à 15:00</p>
-                </div>
-            </div>
-        </div>
-    </section>
-</main>
+		<section id="exposants" class="bg-white py-20">
+			<div class="container mx-auto px-4">
+				<div class="mb-12 text-center">
+					<h2
+						class="text-4xl lg:text-5xl font-extrabold text-primary-theme inline-block section-header before:left-1/2 before:-translate-x-1/2">
+						NOS EXPOSANTS</h2>
+					<p class="mt-4 text-lg text-rich-brown">Découvrez les entreprises et créateurs
+						présents lors de l'événement.</p>
+				</div>
+				<div id="exposants-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+				</div>
+			</div>
+		</section>
 
-<footer class="bg-primary-theme text-gray-200 p-8 text-center">
-    <p class="text-sm">
-        L’équipe du marché équestre est fière de présenter cette nouvelle édition! Il s’agit d’un projet permettant aux entreprises locales et régionales de mettre en valeur leurs produits et leurs services à vocation équestre.
-    </p>
-    <p class="mt-4 text-xs">© 2025 Marché Équestre. Tous droits réservés.</p>
-</footer>
+		<section id="contact" class="bg-gray-50 py-20 text-gray-700">
+			<div class="container mx-auto px-4">
+				<div class="mb-12 text-center">
+					<h2
+						class="text-4xl lg:text-5xl font-extrabold text-primary-theme inline-block section-header before:left-1/2 before:-translate-x-1/2">
+						CONTACT & INFORMATIONS</h2>
+				</div>
+				<div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+					<div class="flex flex-col items-center">
+						<div class="text-4xl text-primary-theme mb-4"><i
+								class="fas fa-map-marker-alt"></i></div>
+						<h3 class="text-2xl font-semibold mb-2 text-primary-theme">Adresse</h3>
+						<a class="text-rich-brown"
+							href="https://maps.app.goo.gl/C5tNAWCXUhPerZsz9">150 chemin du
+							Sous-Bois, Mont-Saint-Grégoire, Québec, Canada, J0J 1K0</a>
+					</div>
+					<div class="flex flex-col items-center">
+						<div class="text-4xl text-primary-theme mb-4"><i
+								class="fas fa-envelope"></i></div>
+						<h3 class="text-2xl font-semibold mb-2 text-primary-theme">Contact</h3>
+						<a class="text-rich-brown mb-2"
+							href="mailto:marianne.graveline@gmail.com">marianne.graveline@gmail.com</a>
+						<div class="mt-2 flex space-x-4 text-rich-brown">
+							<a href="https://www.facebook.com/marianne.graveline"
+								class="hover:text-primary-theme"><i
+									class="fab fa-facebook-f"></i></a>
+						</div>
+					</div>
+					<div class="flex flex-col items-center">
+						<div class="text-4xl text-primary-theme mb-4"><i
+								class="fas fa-clock"></i></div>
+						<h3 class="text-2xl font-semibold mb-2 text-primary-theme">Heures
+							d'ouverture</h3>
+						<p class="text-rich-brown mb-2">Samedi 16 novembre 2025 • 10:00 à 16:00
+						</p>
+						<p class="text-rich-brown">Dimanche 17 novembre 2025 • 10:00 à 15:00</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
 
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        fetch('static/exposants.json')
-            .then(response => response.json())
-            .then(exposantsData => {
-                const container = document.getElementById('exposants-list');
-                if (container) {
-                    container.innerHTML = exposantsData.map(exposant => `
-                        <div class="rounded-xl shadow-xl p-6 flex flex-col items-center text-center border-t-8 border-antique-gold bg-warm-beige transition hover:scale-105 hover:shadow-2xl duration-300">
+	<footer class="bg-primary-theme text-gray-200 p-8 text-center">
+		<p class="text-sm">
+			L’équipe du marché équestre est fière de présenter cette nouvelle édition! Il s’agit d’un projet
+			permettant aux entreprises locales et régionales de mettre en valeur leurs produits et leurs
+			services à vocation équestre.
+		</p>
+		<p class="mt-4 text-xs">© 2025 Marché Équestre. Tous droits réservés.</p>
+	</footer>
+
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+			fetch('static/exposants.json')
+				.then(response => response.json())
+				.then(exposantsData => {
+					const container = document.getElementById('exposants-list');
+					if (container) {
+						container.innerHTML = exposantsData.map(exposant => `
+                        <div class="rounded-xl shadow-xl p-6 flex flex-col items-center text-center border-t-8 border-amber-400 bg-white transition hover:scale-105 hover:shadow-2xl duration-300">
                             ${exposant.logo ? `<img src=".${exposant.logo}" alt="${exposant.name} logo" class="mb-4 h-28 w-auto rounded-lg border-2 border-rich-brown shadow-md">` : ''}
                             <h4 class="text-2xl font-bold mb-2 text-primary-theme">${exposant.name}</h4>
                             <p class="text-base text-rich-brown font-medium mb-2">${exposant.description}</p>
@@ -199,29 +285,30 @@
                             </div>
                         </div>
                     `).join('');
-                }
-            })
-            .catch(error => console.error('Error loading exposants data:', error));
+					}
+				})
+				.catch(error => console.error('Error loading exposants data:', error));
 
-        const menuButton = document.getElementById('menu-button');
-        const mobileMenu = document.getElementById('mobile-menu');
-        const closeMenuButton = document.getElementById('close-menu');
+			const menuButton = document.getElementById('menu-button');
+			const mobileMenu = document.getElementById('mobile-menu');
+			const closeMenuButton = document.getElementById('close-menu');
 
-        function showMenu() {
-            mobileMenu.classList.remove('-translate-x-full');
-        }
+			function showMenu() {
+				mobileMenu.classList.remove('-translate-x-full');
+			}
 
-        window.hideMenu = function() {
-            mobileMenu.classList.add('-translate-x-full');
-        }
+			window.hideMenu = function () {
+				mobileMenu.classList.add('-translate-x-full');
+			}
 
-        if (menuButton) {
-            menuButton.addEventListener('click', showMenu);
-        }
-        if (closeMenuButton) {
-            closeMenuButton.addEventListener('click', hideMenu);
-        }
-    });
-</script>
+			if (menuButton) {
+				menuButton.addEventListener('click', showMenu);
+			}
+			if (closeMenuButton) {
+				closeMenuButton.addEventListener('click', hideMenu);
+			}
+		});
+	</script>
 </body>
+
 </html>
