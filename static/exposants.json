@@ -330,5 +330,20 @@
       { "url": "https://www.facebook.com/Patcuirart", "icon": "fab fa-facebook-f" },
       { "url": "https://patcuir.com/", "icon": "fas fa-globe" }
     ]
+  },
+  {
+    "name": "Erika D-Dandurand",
+    "logo": "/static/logos/Erika D-Dandurand.jpg",
+    "description": "",
+    "socials": [
+      { "url": "https://www.facebook.com/share/1AkcZQPXxq/?mibextid=wwXIfr", "icon": "fab fa-facebook-f" }
+    ]
+  },
+  {
+    "name": "Nathalie Schoos - Ergonome équin",
+    "logo": "/static/logos/NathalieSchoos-Ergonomeequin.jpg",
+    "description": "",
+    "socials": [
+    ]
   }
 ]
