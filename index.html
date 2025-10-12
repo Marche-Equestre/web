@@ -338,7 +338,6 @@
                         <div class="rounded-xl shadow-xl p-6 flex flex-col items-center text-center border-t-8 border-amber-400 bg-white transition hover:scale-105 hover:shadow-2xl duration-300">
                             ${exposant.logo ? `<img src=".${exposant.logo}" alt="${exposant.name} logo" class="mb-4 h-28 w-auto rounded-lg border-2 border-rich-brown shadow-md">` : ''}
                             <h4 class="text-2xl font-bold mb-2 text-primary-theme">${exposant.name}</h4>
-                            <p class="text-base text-rich-brown font-medium mb-2">${exposant.description}</p>
                             <div class="mt-4 flex space-x-4 text-rich-brown">
                                 ${exposant.socials.map(social => `
                                     <a href="${social.url}" class="hover:text-primary-theme transition duration-300 text-xl"><i class="${social.icon}"></i></a>

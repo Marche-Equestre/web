@@ -1,49 +1,49 @@
 [
   {
     "name": "ÉquiCom",
-    "logo": "",
+    "logo": "/static/logos/equicom.png",
     "description": "",
     "socials": []
   },
   {
     "name": "Stephanie Ouellette",
-    "logo": "",
+    "logo": "/static/logos/",
     "description": "communication animale",
     "socials": []
   },
   {
     "name": "Leveza",
-    "logo": "",
+    "logo": "/static/logos/",
     "description": "",
     "socials": []
   },
   {
     "name": "Le florin",
-    "logo": "",
+    "logo": "/static/logos/",
     "description": "",
     "socials": []
   },
   {
     "name": "Fer sa chance",
-    "logo": "",
+    "logo": "/static/logos/",
     "description": "",
     "socials": []
   },
   {
     "name": "Chercheur de selle",
-    "logo": "",
+    "logo": "/static/logos/ChercheuxDeSelles.jpg",
     "description": "",
     "socials": []
   },
   {
     "name": "Galahad",
-    "logo": "",
+    "logo": "/static/logos/",
     "description": "",
     "socials": []
   },
   {
     "name": "Epicure",
-    "logo": "",
+    "logo": "/static/logos/Epicure_Logotype_Lr.png",
     "description": "Épices et assaisonnements pour aider les cavaliers dans leur vie bien remplie et leur sauver du temps. Solution repas, desserts, épices, assaisonnements, thé et outils de cuisine.",
     "socials": [
       { "url": "https://www.facebook.com/mariehelene.beauvolsk", "icon": "fab fa-facebook-f" }
@@ -51,7 +51,7 @@
   },
   {
     "name": "Créations Stéphanie Guiot",
-    "logo": "",
+    "logo": "/static/logos/",
     "description": "Plaque de box personnalisée, t shirt, Porte-rosette, charms, Protege étrier, toutou personnalisé, Porte clé,  Probablement couvre selle et sac a bride.  Je travaille avec le tissus,  le vinyl, gravure et coupure laser.",
     "socials": [
       { "url": "https://www.facebook.com/profile.php?id=61564027600979", "icon": "fab fa-facebook-f" }
@@ -59,7 +59,7 @@
   },
   {
     "name": "Leila S. Gladu Photographe",
-    "logo": "",
+    "logo": "/static/logos/",
     "description": "Photographe Animalière",
     "socials": [
       { "url": "Leila S. Gladu Photographe", "icon": "fab fa-facebook-f" },
@@ -76,7 +76,7 @@
   },
   {
     "name": "Pyr Hat Michèle Lafond ",
-    "logo": "",
+    "logo": "/static/logos/pyr_hat.jpeg",
     "description": "Pyrogravures sur Chapeaux de cow-boy et articles en cuir ou en bois pyrogravés à la main",
     "socials": [
       { "url": "https://www.facebook.com/share/16a3fkbNVY/?mibextid=wwXIfr", "icon": "fab fa-facebook-f" }
@@ -84,7 +84,7 @@
   },
   {
     "name": "MiniMoon Creations",
-    "logo": "",
+    "logo": "/static/logos/Minimooncreation.jpg",
     "description": "Polos, sac à crins, doudous pour enfants, porte-clé. Tout est fait à la main. ",
     "socials": [
       { "url": "https://www.facebook.com/share/17GrjsLUWg/", "icon": "fab fa-facebook-f" }
@@ -92,7 +92,7 @@
   },
   {
     "name": "Équi-Conscience Soins Holistiques Équins",
-    "logo": "",
+    "logo": "/static/logos/equiconscience.jpg",
     "description": "Distributrice des produits Équithalasso-Équialgues (gamme de soins aux algues marines) - Produits naturels que je confectionne à base d'huiles essentielles (baume guérison - baume Je respire - Spray guérison - Bye Bye Thrush - Spray musculaire - Yeux Santé)",
     "socials": [
       { "url": "https://www.facebook.com/profile.php?id=100065663882593", "icon": "fab fa-facebook-f" }
@@ -100,7 +100,7 @@
   },
   {
     "name": "RAYO Produits Naturels",
-    "logo": "",
+    "logo": "/static/logos/",
     "description": "Produits naturels pour chevaux fabriqué de façons artisanal au Québec",
     "socials": [
       { "url": "https://rayoproduitsnautrels.ca", "icon": "fas fa-globe" }
@@ -108,7 +108,7 @@
   },
   {
     "name": "Marie-Claude Fleury Artiste peintre professionnelle",
-    "logo": "",
+    "logo": "/static/logos/Marie-clause Fleury (artiste peintre).jpeg",
     "description": "Artiste peintre professionnelle, je me spécialise en art équin. Je peins uniquement des chevaux. Je fais entre autre beaucoup de commandes spéciales pour les personnes qui souhaitent avoir un portrait de leur propre cheval. ",
     "socials": [
       { "url": "https://www.facebook.com/share/1Ei6rqedn7/?mibextid=wwXIfr", "icon": "fas fa-globe" }
@@ -116,7 +116,7 @@
   },
   {
     "name": "Coraféli",
-    "logo": "",
+    "logo": "/static/logos/Coraféli.jpg",
     "description": "Bouteille stainless, bouteilles en verre sublimation, pochette collation, couverture, porte clé et tuque à pompon !",
     "socials": [
       { "url": "https://facebook.com/profile.php?id=100088416935705&name=xhp_nt__fb__action__open_user&locale=fr_CA", "icon": "fab fa-facebook-f" }
@@ -124,7 +124,7 @@
   },
   {
     "name": "Lux Equestre ",
-    "logo": "",
+    "logo": "/static/logos/Lux equestre.jpg",
     "description": "Tapis, brides, vetements pour cavaliers",
     "socials": [
       { "url": "https://www.luxequestre.com", "icon": "fas fa-globe" }
@@ -132,7 +132,7 @@
   },
   {
     "name": "Ferme Dion",
-    "logo": "",
+    "logo": "/static/logos/",
     "description": "Moulée et supplement pour chevaux, abreuvoir , dalles ( Mud Control Grids)",
     "socials": [
       { "url": "https://fermedion.com", "icon": "fas fa-globe" }
@@ -140,7 +140,7 @@
   },
   {
     "name": "PharmaVet",
-    "logo": "",
+    "logo": "/static/logos/",
     "description": "Service de formation et de consultation sur les suppléments et les médicaments équins",
     "socials": [
       { "url": "https://www.pharmavet.ca", "icon": "fas fa-globe" }
@@ -148,7 +148,7 @@
   },
   {
     "name": "Biopteq",
-    "logo": "",
+    "logo": "/static/logos/Biopteq.jpeg",
     "description": "Produits pour sabots, suppléments alimentaires, shampooing, savon , huile à mouches",
     "socials": [
       { "url": "https://www.facebook.com/share/1Jreg6CM84/?mibextid=wwXIfr", "icon": "fab fa-facebook-f" },
@@ -157,7 +157,7 @@
   },
   {
     "name": "Centre de Réhabilitation et Thérapie Sportive ",
-    "logo": "",
+    "logo": "/static/logos/equivet.png",
     "description": "Centre de réhabilitation pour chevaux et au même kiosque aussi les services de massothérapie de EquiVet",
     "socials": [
       { "url": "https://equivetrehab.ca", "icon": "fas fa-globe" }
@@ -165,7 +165,7 @@
   },
   {
     "name": "Geroverse",
-    "logo": "",
+    "logo": "/static/logos/Geroverse.jpeg",
     "description": "Produits Galloping Goop, Equiderma, Barn Dog,  Creation Chantal, T-shirt Geroverse",
     "socials": [
       { "url": "https://www.facebook.com/geroverse", "icon": "fab fa-facebook-f" },
@@ -174,7 +174,7 @@
   },
   {
     "name": "Brenda Dubois",
-    "logo": "",
+    "logo": "/static/logos/ActiveTech (BRenda Dubois).png",
     "description": "Thérapie de laser super-pulsée MultiRadiance et thermographie (images thermales) equine, canine, feline et bovine",
     "socials": [
       { "url": "https://activetechlaser.com/", "icon": "fas fa-globe" }
@@ -182,7 +182,7 @@
   },
   {
     "name": "Pegasi Pearlz",
-    "logo": "",
+    "logo": "/static/logos/",
     "description": "Frontal, bonnet, licou, polos, guêtres tout personalisable",
     "socials": [
       { "url": "https://etsy.com/ca/shop/PegasiPearlz", "icon": "fas fa-globe" }
@@ -190,10 +190,73 @@
   },
   {
     "name": "Création Chantal création pour toi",
-    "logo": "",
+    "logo": "/static/logos/Creationchantal-creationpourtoi.jpeg",
     "description": "Bijoux en crins de cheval( collier, bracelets, porte-clés, boucles d’oreilles, marque page, capteur de lumière, capteur de rêve, signets personnalisés, horloges, boule de Noël peint à la main, charms pour bride, charms de protection, attache à sac, attache à cellulaire…) et pour le plaisir des plus petits des bracelets en corde ajustable, petit chevaux porte-clés articulé, petite botte de cowboy et bien plus encore. Section spéciale à petit prix pour rejoindre tous les budgets.",
     "socials": [
       { "url": "https://www.facebook.com/share/1NG7tZye8U/?mibextid=wwXIfr", "icon": "fab fa-facebook-f" }
+    ]
+  },
+  {
+    "name": "Cheval Love",
+    "logo": "/static/logos/Chevallove.jpg",
+    "description": "",
+    "socials": [
+    ]
+  },
+  {
+    "name": "EquineSignature",
+    "logo": "/static/logos/EquineSignature.jpg",
+    "description": "",
+    "socials": [
+    ]
+  },
+  {
+    "name": "Jessica Moreau",
+    "logo": "/static/logos/JessicaMoreau.jpg",
+    "description": "",
+    "socials": [
+    ]
+  },
+  {
+    "name": "Josée Beaudry",
+    "logo": "/static/logos/Josee_Beaudry.png",
+    "description": "",
+    "socials": [
+    ]
+  },
+  {
+    "name": "Karillia ARTisan",
+    "logo": "/static/logos/KarilliARTisan.png",
+    "description": "",
+    "socials": [
+    ]
+  },
+  {
+    "name": "LCM Jeans",
+    "logo": "/static/logos/LCM JEANS.jpeg",
+    "description": "",
+    "socials": [
+    ]
+  },
+  {
+    "name": "Libella",
+    "logo": "/static/logos/libella.jpeg",
+    "description": "",
+    "socials": [
+    ]
+  },
+  {
+    "name": "Miska Creation",
+    "logo": "/static/logos/miskacreation.jpg",
+    "description": "",
+    "socials": [
+    ]
+  },
+  {
+    "name": "SimEquest.jpg",
+    "logo": "/static/logos/SimEquest.jpg",
+    "description": "",
+    "socials": [
     ]
   }
 ]
