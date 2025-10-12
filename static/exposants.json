@@ -3,31 +3,42 @@
     "name": "Stephanie Ouellette",
     "logo": "/static/logos/StephanieOuellette_FormationEquestreEnLigne.jpg",
     "description": "",
-    "socials": []
+    "socials": [
+      { "url": "https://www.formationequestreenligne.com/", "icon": "fas fa-globe" }
+    ]
   },
   {
     "name": "Le florin",
     "logo": "/static/logos/LeFlorin.png",
     "description": "",
-    "socials": []
+    "socials": [
+      { "url": "https://www.facebook.com/leflorin", "icon": "fab fa-facebook-f" }
+    ]
   },
   {
     "name": "Fer Sa Chance",
     "logo": "/static/logos/FerSaChance.png",
     "description": "",
-    "socials": []
+    "socials": [
+      { "url": "https://www.facebook.com/fersachance.qc", "icon": "fab fa-facebook-f" }
+    ]
   },
   {
     "name": "Chercheux de selle",
     "logo": "/static/logos/ChercheuxDeSelles.jpg",
     "description": "",
-    "socials": []
+    "socials": [
+        { "url": "https://www.facebook.com/chercheux.deselles.9", "icon": "fab fa-facebook-f" }
+    ]
   },
   {
     "name": "Galahad",
     "logo": "/static/logos/Galahad.jpg",
     "description": "",
-    "socials": []
+    "socials": [
+        { "url": "https://refugegalahad.com/", "icon": "fas fa-globe" },
+        { "url": "https://www.facebook.com/LeRefugeDeGalahad ", "icon": "fab fa-facebook-f" }
+    ]
   },
   {
     "name": "Epicure",
@@ -66,7 +77,7 @@
     "logo": "/static/logos/pyr_hat.jpeg",
     "description": "Pyrogravures sur Chapeaux de cow-boy et articles en cuir ou en bois pyrogravés à la main",
     "socials": [
-      { "url": "https://www.facebook.com/share/16a3fkbNVY/?mibextid=wwXIfr", "icon": "fab fa-facebook-f" }
+      { "url": "https://www.facebook.com/share/16a3fkbNVY/", "icon": "fab fa-facebook-f" }
     ]
   },
   {
@@ -188,6 +199,8 @@
     "logo": "/static/logos/Chevallove.jpg",
     "description": "",
     "socials": [
+        { "url": "https://www.facebook.com/chevallove.ca", "icon": "fab fa-facebook-f" },
+        { "url": "https://chevallove.ca/", "icon": "fas fa-globe" }
     ]
   },
   {
@@ -195,6 +208,7 @@
     "logo": "/static/logos/EquineSignature.jpg",
     "description": "",
     "socials": [
+      { "url": "https://equinesignature.com/", "icon": "fas fa-globe" }
     ]
   },
   {
@@ -202,13 +216,15 @@
     "logo": "/static/logos/Josee_Beaudry.png",
     "description": "",
     "socials": [
+      { "url": "https://www.facebook.com/profile.php?id=61560352478297&__tn__=%2Cd", "icon": "fab fa-facebook-f" }
     ]
   },
   {
-    "name": "Karillia ARTisan",
+    "name": "Karilli ARTisan",
     "logo": "/static/logos/Karilli.jpg",
     "description": "",
     "socials": [
+      { "url": "https://www.facebook.com/profile.php?id=100087334133709", "icon": "fab fa-facebook-f" }
     ]
   },
   {
@@ -223,6 +239,8 @@
     "logo": "/static/logos/libella.jpeg",
     "description": "",
     "socials": [
+      { "url": "https://www.facebook.com/share/1A1AtVV4JT/", "icon": "fab fa-facebook-f" },
+      { "url": "https://ecurieslibellastables.ca/", "icon": "fas fa-globe" }
     ]
   },
   {
@@ -230,6 +248,7 @@
     "logo": "/static/logos/miskacreation.jpg",
     "description": "",
     "socials": [
+      { "url": "http://www.miskacreation.ca", "icon": "fas fa-globe" }
     ]
   },
   {
@@ -237,6 +256,8 @@
     "logo": "/static/logos/SimEquest.jpg",
     "description": "",
     "socials": [
+      { "url": "www.simEquest.com", "icon": "fas fa-globe" },
+      { "url": "https://www.facebook.com/profile.php?id=100069277374627", "icon": "fab fa-facebook-f" }
     ]
   },
   {
@@ -251,13 +272,16 @@
     "name": "Stephanie Ouellette",
     "logo": "/static/logos/StephanieOuellette-Elleparleauxanimaux.jpg",
     "description": "communication animale",
-    "socials": []
+    "socials": [
+      { "url": "https://elleparleauxanimaux.com/", "icon": "fas fa-globe" }
+    ]
   },
   {
     "name": "Gris Poil",
     "logo": "/static/logos/grispoil.jpg",
     "description": "",
     "socials": [
+      { "url": "grispoil.ca", "icon": "fas fa-globe" }
     ]
   },
   {
@@ -265,6 +289,7 @@
     "logo": "/static/logos/Jessica Guay.png",
     "description": "",
     "socials": [
+      { "url": "https://www.facebook.com/jessicaguaymassotherapeuteequin", "icon": "fab fa-facebook-f" }
     ]
   },
   {
@@ -272,6 +297,7 @@
     "logo": "/static/logos/jessyka roy.jpg",
     "description": "",
     "socials": [
+      { "url": "https://www.facebook.com/share/1CbiwuezgZ/", "icon": "fab fa-facebook-f" }
     ]
   },
   {
@@ -285,6 +311,7 @@
     "logo": "/static/logos/Kaky.jpg",
     "description": "",
     "socials": [
+      { "url": "https://www.facebook.com/share/1Yz8U4ta1f/", "icon": "fab fa-facebook-f" }
     ]
   },
   {
@@ -292,6 +319,7 @@
     "logo": "/static/logos/Michelealacarte.jpg",
     "description": "",
     "socials": [
+      { "url": "https://www.facebook.com/profile.php?id=100063828511781", "icon": "fab fa-facebook-f" }
     ]
   },
   {
@@ -299,6 +327,8 @@
     "logo": "/static/logos/PatCuir.jpg",
     "description": "",
     "socials": [
+      { "url": "https://www.facebook.com/Patcuirart", "icon": "fab fa-facebook-f" },
+      { "url": "https://patcuir.com/", "icon": "fas fa-globe" }
     ]
   }
 ]

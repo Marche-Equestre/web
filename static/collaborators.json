@@ -3,19 +3,24 @@
     "name": "ÉquiCom",
     "logo": "/static/logos/equicom.jpg",
     "description": "",
-    "socials": []
+    "socials": [
+      { "url": "https://www.facebook.com/equicom2", "icon": "fab fa-facebook-f" }
+    ]
   },
   {
     "name": "Leveza",
     "logo": "/static/logos/Leveza.jpg",
     "description": "",
-    "socials": []
+    "socials": [
+      { "url": "https://www.leveza.ca/fr", "icon": "fas fa-globe" }
+    ]
   },
   {
     "name": "Jessica Moreau",
     "logo": "/static/logos/JessicaMoreau.jpg",
     "description": "",
     "socials": [
+      { "url": "https://www.facebook.com/JessicaMoreauPhoto/", "icon": "fab fa-facebook-f" }
     ]
   },
   {
@@ -23,18 +28,23 @@
     "logo": "/static/logos/massanimo.jpg",
     "description": "",
     "socials": [
+        { "url": "https://www.facebook.com/p/Massanimo-100036084231147/", "icon": "fab fa-facebook-f" }
     ]
   },
   {
     "name": "Stephanie Ouellette",
     "logo": "/static/logos/StephanieOuellette_FormationEquestreEnLigne.jpg",
     "description": "",
-    "socials": []
+    "socials": [
+      { "url": "https://www.formationequestreenligne.com/", "icon": "fas fa-globe" }
+    ]
   },
   {
     "name": "Stephanie Ouellette",
     "logo": "/static/logos/StephanieOuellette-Elleparleauxanimaux.jpg",
     "description": "communication animale",
-    "socials": []
+    "socials": [
+      { "url": "https://elleparleauxanimaux.com/", "icon": "fas fa-globe" }
+    ]
   }
 ]
