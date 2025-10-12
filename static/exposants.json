@@ -1,31 +1,31 @@
 [
   {
     "name": "ÉquiCom",
-    "logo": "/static/logos/equicom.png",
+    "logo": "/static/logos/equicom.jpg",
     "description": "",
     "socials": []
   },
   {
     "name": "Stephanie Ouellette",
-    "logo": "/static/logos/",
-    "description": "communication animale",
+    "logo": "/static/logos/StephanieOuellette_FormationEquestreEnLigne.jpg",
+    "description": "",
     "socials": []
   },
   {
     "name": "Leveza",
-    "logo": "/static/logos/",
+    "logo": "/static/logos/Leveza.jpg",
     "description": "",
     "socials": []
   },
   {
     "name": "Le florin",
-    "logo": "/static/logos/",
+    "logo": "/static/logos/LeFlorin.png",
     "description": "",
     "socials": []
   },
   {
-    "name": "Fer sa chance",
-    "logo": "/static/logos/",
+    "name": "Fer Sa Chance",
+    "logo": "/static/logos/FerSaChance.png",
     "description": "",
     "socials": []
   },
@@ -37,7 +37,7 @@
   },
   {
     "name": "Galahad",
-    "logo": "/static/logos/",
+    "logo": "/static/logos/Galahad.jpg",
     "description": "",
     "socials": []
   },
@@ -50,21 +50,20 @@
     ]
   },
   {
-    "name": "Créations Stéphanie Guiot",
-    "logo": "/static/logos/",
-    "description": "Plaque de box personnalisée, t shirt, Porte-rosette, charms, Protege étrier, toutou personnalisé, Porte clé,  Probablement couvre selle et sac a bride.  Je travaille avec le tissus,  le vinyl, gravure et coupure laser.",
-    "socials": [
-      { "url": "https://www.facebook.com/profile.php?id=61564027600979", "icon": "fab fa-facebook-f" }
-    ]
-  },
-  {
     "name": "Leila S. Gladu Photographe",
-    "logo": "/static/logos/",
+    "logo": "/static/logos/LeilaSGladuPhotographe.jpg",
     "description": "Photographe Animalière",
     "socials": [
       { "url": "Leila S. Gladu Photographe", "icon": "fab fa-facebook-f" },
       { "url": "lsgphotos.com", "icon": "fas fa-globe" }
     ]
+  },
+
+  {
+    "name": "A-M Borduas - Mise en plan",
+    "logo": "/static/logos/AnnemarieBorduas- Mise en plan.png",
+    "description": "",
+    "socials": []
   },
   {
     "name": "Cheval Karuna",
@@ -100,7 +99,7 @@
   },
   {
     "name": "RAYO Produits Naturels",
-    "logo": "/static/logos/",
+    "logo": "/static/logos/Rayo_ProduitsNaturels.jpg",
     "description": "Produits naturels pour chevaux fabriqué de façons artisanal au Québec",
     "socials": [
       { "url": "https://rayoproduitsnautrels.ca", "icon": "fas fa-globe" }
@@ -108,7 +107,7 @@
   },
   {
     "name": "Marie-Claude Fleury Artiste peintre professionnelle",
-    "logo": "/static/logos/Marie-clause Fleury (artiste peintre).jpeg",
+    "logo": "/static/logos/Marie-claude Fleury (artiste peintre).jpeg",
     "description": "Artiste peintre professionnelle, je me spécialise en art équin. Je peins uniquement des chevaux. Je fais entre autre beaucoup de commandes spéciales pour les personnes qui souhaitent avoir un portrait de leur propre cheval. ",
     "socials": [
       { "url": "https://www.facebook.com/share/1Ei6rqedn7/?mibextid=wwXIfr", "icon": "fas fa-globe" }
@@ -116,7 +115,7 @@
   },
   {
     "name": "Coraféli",
-    "logo": "/static/logos/Coraféli.jpg",
+    "logo": "/static/logos/Corafeli.jpg",
     "description": "Bouteille stainless, bouteilles en verre sublimation, pochette collation, couverture, porte clé et tuque à pompon !",
     "socials": [
       { "url": "https://facebook.com/profile.php?id=100088416935705&name=xhp_nt__fb__action__open_user&locale=fr_CA", "icon": "fab fa-facebook-f" }
@@ -132,7 +131,7 @@
   },
   {
     "name": "Ferme Dion",
-    "logo": "/static/logos/",
+    "logo": "/static/logos/FermeDion.jpeg",
     "description": "Moulée et supplement pour chevaux, abreuvoir , dalles ( Mud Control Grids)",
     "socials": [
       { "url": "https://fermedion.com", "icon": "fas fa-globe" }
@@ -140,7 +139,7 @@
   },
   {
     "name": "PharmaVet",
-    "logo": "/static/logos/",
+    "logo": "/static/logos/Pharmavet.png",
     "description": "Service de formation et de consultation sur les suppléments et les médicaments équins",
     "socials": [
       { "url": "https://www.pharmavet.ca", "icon": "fas fa-globe" }
@@ -182,7 +181,7 @@
   },
   {
     "name": "Pegasi Pearlz",
-    "logo": "/static/logos/",
+    "logo": "/static/logos/PegasiPearlz.jpg",
     "description": "Frontal, bonnet, licou, polos, guêtres tout personalisable",
     "socials": [
       { "url": "https://etsy.com/ca/shop/PegasiPearlz", "icon": "fas fa-globe" }
@@ -226,7 +225,7 @@
   },
   {
     "name": "Karillia ARTisan",
-    "logo": "/static/logos/KarilliARTisan.png",
+    "logo": "/static/logos/Karilli.jpg",
     "description": "",
     "socials": [
     ]
@@ -255,6 +254,75 @@
   {
     "name": "SimEquest.jpg",
     "logo": "/static/logos/SimEquest.jpg",
+    "description": "",
+    "socials": [
+    ]
+  },
+  {
+    "name": "Créations Stéphanie Guiot",
+    "logo": "/static/logos/CreationStephGuiot.jpg",
+    "description": "Plaque de box personnalisée, t shirt, Porte-rosette, charms, Protege étrier, toutou personnalisé, Porte clé,  Probablement couvre selle et sac a bride.  Je travaille avec le tissus,  le vinyl, gravure et coupure laser.",
+    "socials": [
+      { "url": "https://www.facebook.com/profile.php?id=61564027600979", "icon": "fab fa-facebook-f" }
+    ]
+  },
+  {
+    "name": "Stephanie Ouellette",
+    "logo": "/static/logos/StephanieOuellette-Elleparleauxanimaux.jpg",
+    "description": "communication animale",
+    "socials": []
+  },
+  {
+    "name": "Gris Poil",
+    "logo": "/static/logos/grispoil.jpg",
+    "description": "",
+    "socials": [
+    ]
+  },
+  {
+    "name": "Jessica Guay",
+    "logo": "/static/logos/Jessica Guay.png",
+    "description": "",
+    "socials": [
+    ]
+  },
+  {
+    "name": "Jessyka Roy",
+    "logo": "/static/logos/jessyka roy.jpg",
+    "description": "",
+    "socials": [
+    ]
+  },
+  {
+    "name": "A-M Borduas - Entraineur Équestre",
+    "logo": "/static/logos/AnneMarieBorduas-Entraineurequestre.png",
+    "description": "",
+    "socials": []
+  },
+  {
+    "name": "Kaky",
+    "logo": "/static/logos/Kaky.jpg",
+    "description": "",
+    "socials": [
+    ]
+  },
+  {
+    "name": "Massanimo",
+    "logo": "/static/logos/massanimo.jpg",
+    "description": "",
+    "socials": [
+    ]
+  },
+  {
+    "name": "Michele à la carte",
+    "logo": "/static/logos/Michelealacarte.jpg",
+    "description": "",
+    "socials": [
+    ]
+  },
+  {
+    "name": "Pat Cuir",
+    "logo": "/static/logos/PatCuir.jpg",
     "description": "",
     "socials": [
     ]
