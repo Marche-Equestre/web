@@ -93,6 +93,7 @@
 					<li><a href="#exposants"
 							class="hover:text-primary-theme transition duration-300">EXPOSANTS</a>
 					</li>
+                    <li><a href="#collaborateurs" class="hover:text-primary-theme transition duration-300">COLLABORATEURS</a></li>
 					<li><a href="#contact"
 							class="hover:text-primary-theme transition duration-300">CONTACT</a>
 					</li>
@@ -127,6 +128,7 @@
 				onclick="hideMenu()">À PROPOS</a>
 			<a href="#exposants" class="text-xl font-semibold text-primary-theme hover:text-rich-brown"
 				onclick="hideMenu()">EXPOSANTS</a>
+            <a href="#collaborateurs" class="text-xl font-semibold text-primary-theme hover:text-rich-brown" onclick="hideMenu()">COLLABORATEURS</a>
 			<a href="#contact" class="text-xl font-semibold text-primary-theme hover:text-rich-brown"
 				onclick="hideMenu()">CONTACT</a>
 		</nav>
@@ -276,6 +278,19 @@
 			</div>
 		</section>
 
+        <section id="collaborateurs" class="bg-white py-20">
+            <div class="container mx-auto px-4">
+                <div class="mb-8 text-center">
+                    <h2 class="text-4xl lg:text-5xl font-extrabold text-primary-theme inline-block section-header">NOS COLLABORATEURS</h2>
+                    <p class="mt-4 text-lg text-rich-brown">Un grand merci à nos précieux collaborateurs pour leur soutien.</p>
+                </div>
+
+                <div id="collaborators-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Cards populated from static/collaborators.json -->
+                </div>
+            </div>
+        </section>
+
 		<section id="contact" class="bg-gray-50 py-20 text-gray-700">
 			<div class="container mx-auto px-4">
 				<div class="mb-12 text-center">
@@ -368,7 +383,27 @@
 				closeMenuButton.addEventListener('click', hideMenu);
 			}
 		});
-	</script>
+
+        // Fetch collaborators and render similarly to exposants
+        fetch('static/collaborators.json')
+            .then(response => response.json())
+            .then(collabsData => {
+                const container = document.getElementById('collaborators-list');
+                if (container) {
+                    container.innerHTML = collabsData.map(collab => `
+          <div class="rounded-xl shadow-xl p-6 flex flex-col items-center text-center border-t-8 border-amber-400 bg-white transition hover:scale-105 hover:shadow-2xl duration-300">
+            ${collab.logo ? `<img src=".${collab.logo}" alt="${collab.name} logo" class="mb-4 h-28 w-auto rounded-lg border-2 border-rich-brown shadow-md">` : ''}
+            <h4 class="text-2xl font-bold mb-2 text-primary-theme">${collab.name}</h4>
+            <p class="text-sm text-rich-brown mb-3">${collab.note || ''}</p>
+            <div class="mt-4 flex space-x-4 text-rich-brown">
+              ${ (collab.socials || []).map(s => `<a href="${s.url}" class="hover:text-primary-theme transition duration-300 text-xl"><i class="${s.icon}"></i></a>`).join('') }
+            </div>
+          </div>
+        `).join('');
+                }
+            })
+            .catch(error => console.error('Error loading collaborators data:', error));
+    </script>
 </body>
 
 </html>

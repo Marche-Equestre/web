@@ -1,19 +1,7 @@
 [
   {
-    "name": "ÉquiCom",
-    "logo": "/static/logos/equicom.jpg",
-    "description": "",
-    "socials": []
-  },
-  {
     "name": "Stephanie Ouellette",
     "logo": "/static/logos/StephanieOuellette_FormationEquestreEnLigne.jpg",
-    "description": "",
-    "socials": []
-  },
-  {
-    "name": "Leveza",
-    "logo": "/static/logos/Leveza.jpg",
     "description": "",
     "socials": []
   },
@@ -30,7 +18,7 @@
     "socials": []
   },
   {
-    "name": "Chercheur de selle",
+    "name": "Chercheux de selle",
     "logo": "/static/logos/ChercheuxDeSelles.jpg",
     "description": "",
     "socials": []
@@ -210,13 +198,6 @@
     ]
   },
   {
-    "name": "Jessica Moreau",
-    "logo": "/static/logos/JessicaMoreau.jpg",
-    "description": "",
-    "socials": [
-    ]
-  },
-  {
     "name": "Josée Beaudry",
     "logo": "/static/logos/Josee_Beaudry.png",
     "description": "",
@@ -302,13 +283,6 @@
   {
     "name": "Kaky",
     "logo": "/static/logos/Kaky.jpg",
-    "description": "",
-    "socials": [
-    ]
-  },
-  {
-    "name": "Massanimo",
-    "logo": "/static/logos/massanimo.jpg",
     "description": "",
     "socials": [
     ]

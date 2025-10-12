@@ -1,0 +1,40 @@
+[
+  {
+    "name": "ÉquiCom",
+    "logo": "/static/logos/equicom.jpg",
+    "description": "",
+    "socials": []
+  },
+  {
+    "name": "Leveza",
+    "logo": "/static/logos/Leveza.jpg",
+    "description": "",
+    "socials": []
+  },
+  {
+    "name": "Jessica Moreau",
+    "logo": "/static/logos/JessicaMoreau.jpg",
+    "description": "",
+    "socials": [
+    ]
+  },
+  {
+    "name": "Massanimo",
+    "logo": "/static/logos/massanimo.jpg",
+    "description": "",
+    "socials": [
+    ]
+  },
+  {
+    "name": "Stephanie Ouellette",
+    "logo": "/static/logos/StephanieOuellette_FormationEquestreEnLigne.jpg",
+    "description": "",
+    "socials": []
+  },
+  {
+    "name": "Stephanie Ouellette",
+    "logo": "/static/logos/StephanieOuellette-Elleparleauxanimaux.jpg",
+    "description": "communication animale",
+    "socials": []
+  }
+]
