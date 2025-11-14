@@ -345,5 +345,56 @@
     "description": "",
     "socials": [
     ]
+  },
+  {
+    "name": "Psychologie du Cheval",
+    "logo": "",
+    "description": "Contact: Valéry Gagné — info@psychologieducheval.com — 514-214-1854. Formations en ligne : Certification en comportement et psychologie équine. Présentation proposée : Émotions, États Psychologiques & Communication Silencieuse Physique. Emplacement réservé: Option 2 - 60’ carré (10' x 6') — 120$. Paiement: Virement Interac à marianne.graveline1@gmail.com (mettre 'cheval' comme réponse). Statut paiement: payé 90$, manque 30$. Durée souhaitée: 60 min si possible.",
+    "socials": [
+      { "url": "mailto:info@psychologieducheval.com", "icon": "fas fa-envelope" }
+    ]
+  },
+  {
+    "name": "Juremka",
+    "logo": "",
+    "description": "Contact: Josiane — juremka.equestrian@gmail.com — 5144974467. Produits sur mesure personnalisés pour chevaux et chales pour humain. Emplacement: Option 4 - 100’ carré (10' x 10') — 200$. Emplacement demandé: 11 x 12 proche de Pegasi. Paiement: Virement Interac à marianne.graveline1@gmail.com. Montant: 265$.",
+    "socials": [
+      { "url": "https://juremka.ca/", "icon": "fas fa-globe" },
+      { "url": "https://www.facebook.com/juremka.equitation/", "icon": "fab fa-facebook-f" },
+      { "url": "https://www.instagram.com/juremka_equitation/", "icon": "fab fa-instagram" }
+    ]
+  },
+  {
+    "name": "ÉquiGâterie",
+    "logo": "",
+    "description": "Contact: Véronique Ravet — veroniqueravet@yahoo.com — 5147550896. Biscuits pour chevaux décorés. Emplacement: Option 1 - 45’ carré (7½' x 6') — 90$. Paiement: Virement Interac à marianne.graveline1@gmail.com.",
+    "socials": [
+      { "url": "https://equigaterie.com/", "icon": "fas fa-globe" }
+    ]
+  },
+  {
+    "name": "L'Académie MSS Inc.",
+    "logo": "",
+    "description": "Contact: Marie-Sophie Sylvestre — info@academiemss.com — 8196905022. Offre: soirées Révélation, communauté MSS, Programme Révélation (formation). Emplacement: Option 1 - 45’ carré — 90$. Paiement: Virement Interac à marianne.graveline1@gmail.com. Durée et sujet souhaités: 60 minutes - Le rôle du propriétaire sur la santé de son cheval.",
+    "socials": [
+      { "url": "https://academiemss.com", "icon": "fas fa-globe" },
+      { "url": "https://www.facebook.com/AcademieMSS", "icon": "fab fa-facebook-f" }
+    ]
+  },
+  {
+    "name": "Les Jardins de l'Écurie",
+    "logo": "",
+    "description": "Contact: Annick Lavoie — annick-lavoie@hotmail.com — 514-609-0204. Coach Equi-Émotion, programme en ligne 'Débuter en confiance avec son cheval'. Emplacement: Option 1 - 45’ carré — 90$. Paiement: Virement Interac à marianne.graveline1@gmail.com.",
+    "socials": [
+      { "url": "https://www.facebook.com/p/Les-Jardins-de-l%C3%89curie-61575040173693/", "icon": "fab fa-facebook-f" }
+    ]
+  },
+  {
+    "name": "Zoothérapie de L’Ouest",
+    "logo": "",
+    "description": "Contact: Françoise Callamand-Mayer — zootherapiedelouest@gmail.com — (514) 898-2680. Spécialisée en médiation animale et équine : ateliers, formations et séances; Zoothérapie équine (Équi-Développement, Leadership facilité par le cheval). Emplacement: Option 1 - 45’ carré — 90$. Paiement: Virement Interac à marianne.graveline1@gmail.com.",
+    "socials": [
+      { "url": "http://www.zootherapiedelouest.com", "icon": "fas fa-globe" }
+    ]
   }
 ]
